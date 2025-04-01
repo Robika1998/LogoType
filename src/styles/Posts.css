@@ -1,7 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 .posts-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem;
+
+  font-size: 1.2rem;
+  color: #747d8c;
+  border-radius: 8px;
+  margin: 2rem 0;
 }
 
 .search-bar {
